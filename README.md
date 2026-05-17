@@ -27,7 +27,7 @@
 
 ### Ссылки
 
-- URL живого сайта: [Добавь ссылку на живой сайт](https://vimanshin.github.io/blog-preview-card-main/)
+- URL живого сайта: [Ссылка на живой сайт](https://vimanshin.github.io/blog-preview-card-main/)
 
 ## Процесс работы
 
