@@ -92,17 +92,20 @@ body {
   line-height: 150%;
 }
 
-.card__sub-title {
+.card__sub-title a {
+  text-decoration: none;
   color: var(--color-gray-950);
   font-size: clamp(20px, 4vw, 24px);
   font-weight: 800;
   line-height: 150%;
   transition: color 0.2s ease;
 }
-
-.card__sub-title:hover {
+.card__sub-title a:hover {
   color: var(--color-bg);
-  cursor: pointer;
+}
+.card__sub-title a:focus-visible {
+  outline: 2px solid var(--color-bg);
+  outline-offset: 2px;
 }
 
 .card__description {
@@ -138,4 +141,13 @@ body {
 }
 .attribution a {
   color: hsl(228, 45%, 44%);
+}
+
+.attribution a:hover {
+  color: var(--color-gray-950);
+}
+
+.attribution a:focus-visible {
+  outline: 2px solid var(--color-gray-950);
+  outline-offset: 2px;
 }
